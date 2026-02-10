@@ -1,0 +1,6 @@
+{"timestamp":"2026-02-09T21:00:01Z","service":"billing-api","level":"INFO","message":"Request received","traceId":"t-100"}
+{"timestamp":"2026-02-09T21:00:03Z","service":"billing-api","level":"ERROR","message":"Database timeout while fetching policy 48392","traceId":"t-100"}
+{"timestamp":"2026-02-09T21:00:05Z","service":"policy-service","level":"ERROR","message":"Connection refused to downstream service at 10.2.1.15:443","traceId":"t-100"}
+{"timestamp":"2026-02-09T21:00:06Z","service":"billing-api","level":"ERROR","message":"Database timeout while fetching policy 48393","traceId":"t-101"}
+{"timestamp":"2026-02-09T21:00:08Z","service":"billing-api","level":"WARN","message":"Retrying request after transient failure","traceId":"t-101"}
+{"timestamp":"2026-02-09T21:00:12Z","service":"billing-api","level":"ERROR","message":"Database timeout while fetching policy 48394","traceId":"t-102"}
